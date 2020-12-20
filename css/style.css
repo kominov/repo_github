@@ -1,0 +1,157 @@
+
+body {
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    color:#fff;
+}
+.body-bg{
+    background-image: url('../images/bg6.jpg');
+    background-size: cover;
+}
+.my-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.container{
+    position: relative;
+}
+.pr{
+    border: 1px solid gray;
+    box-shadow: 1px 20px 10px 5px #000;
+}
+
+.pr-left{
+    background-color: grey;
+    min-height: 30vh;
+}
+
+.pr-right{
+    background-color:#babec4;
+    min-height: 30vh;
+}
+.pr-left a{
+    color: whitesmoke;
+
+}
+.pr-left ul{
+    line-height: 175%;
+    padding-left: 30px;
+} 
+.pr-left .contact-block{
+    line-height: 175%;
+    padding-left: 00px;
+} 
+.pr-left a:hover{
+    text-decoration: none;
+}
+
+.pr-left ul.contact-block{
+    list-style-type: none;
+}
+
+.contact-block{
+    display:flex;
+    justify-content:space-between;
+    margin: 0px auto;
+    align-items: center;
+    
+}
+.contact-block li{
+    box-shadow: 1px 1px 10px#574e4e;
+    border-radius: 50%;
+}
+.work-time{
+    padding: 20px 20px 0 20px;
+    font-size:22px;
+    text-align: center;
+    color:#fff;
+}
+.color-grey{
+    color: rgb(82, 79, 79);
+}
+h1, h2, h3, h4, h5{
+    font-family: 'IBM Plex Serif', serif;
+    text-shadow: 0px 0px 4px #fff;
+}
+.pr-right{
+    color:rgb(32, 41, 32);
+    font-size: 18px;
+} 
+
+.title_about{
+    font-size: 1.4rem;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+.lines{
+overflow: hidden;
+}
+.lines::before, .lines::after{
+   content:"";
+    display: inline-block;
+    box-sizing:border-box;
+    background: rgb(29, 12, 12);
+    width: 100%;
+    height: 4px;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    
+} 
+.lines::before{
+    margin-left: -100%;
+}
+.lines::after{
+    margin-right: -100%;
+}
+@media(max-width:757.98px){
+    .photo-block .avatar{
+        display: block;
+        max-width: 50%;
+        margin: 20px auto;
+    }
+}
+
+.my-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(1,1,1, 0.7);
+    z-index: 1020;
+    border: 0px;
+    
+}
+.btn-close{
+    position: absolute;
+    right: 100px;
+    top:60px;
+    width:50px;
+    height: 50px;
+    background: rgba(1,1,1, 0);
+    border:none;
+}
+
+.btn-close:focus{
+    outline: none;
+}
+.img-close{
+    opacity: 0.3;
+}
+
+
+.video-plr{
+    border: 5px solid rgba(1,1,1, 0.2);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px #000;
+    min-width: 60%;
+    min-height: 60%;
+    margin: auto;
+    
+}
+.video-plr:focus{
+    outline: 0;
+}
